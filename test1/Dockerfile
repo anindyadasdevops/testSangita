@@ -1,4 +1,4 @@
-git branch -M main# Use a lightweight web server image
+#git branch -M main# Use a lightweight web server image
 FROM nginx:alpine
 
 # Copy static website files to nginx public directory
