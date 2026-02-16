@@ -29,4 +29,4 @@ jobs:
         context: ./test1
         file: ./test1/Dockerfile
         push: true
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/hello-sangita:latest
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/hello-sangita:firstimage
